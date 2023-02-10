@@ -51,6 +51,16 @@ public class Inflammable : MonoBehaviour
 
     public void Init()
     {
+        if (_renders == null)
+        {
+            _renders = GetComponentsInChildren<Renderer>();
+            _startMaterials = new Material[_renders.Length];
+            for (int i = 0; i < _renders.Length; i++)
+            {
+                _startMaterials[i] = _renders[i].material;
+            }
+        }
+
         _burned = false;
         for (int i = 0; i < _renders.Length; i++)
         {

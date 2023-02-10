@@ -131,6 +131,30 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8720423055029642922, guid: e963f1f578e993445921cadb5b2de6bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e963f1f578e993445921cadb5b2de6bc, type: 3}
+--- !u!1 &1712975927277448631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5656306997616109724, guid: e963f1f578e993445921cadb5b2de6bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6465633842859083051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3249251241065549343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712975927277448631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57c9246fbe5fd84196ff34e98fef682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnPoint: {fileID: 1603683695830685953}
+  _cornPrefab: {fileID: 7235400351073709012, guid: c32b99169c2827b40a9d4d812811dade,
+    type: 3}
+  _cornCount: 3
+  _randomness: 1.5
+  _delay: 3
 --- !u!4 &2096903989429310266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4945859113366361617, guid: e963f1f578e993445921cadb5b2de6bc,

@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2959e6b2e255eaf4bba98b9da67dbb4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _burnedMaterial: {fileID: 2100000, guid: 698c3b72e331c7a41ab5e5a4b8be4332, type: 2}
+  _burnedMaterial: {fileID: 2100000, guid: e40ba4fc4e110b24b84bfa70ae0d5b9c, type: 2}
 --- !u!54 &6331781269874407533
 Rigidbody:
   m_ObjectHideFlags: 0

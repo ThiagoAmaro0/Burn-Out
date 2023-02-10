@@ -24,7 +24,14 @@ public class PlayerRotation : MonoBehaviour
     public void OnMove(InputValue value)
     {
         Vector2 input = value.Get<Vector2>();
-        print(input);
         _rotation = new Vector3(input.y, 0, -input.x) * _rotationSpeed;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.TryGetComponent<Inflammable>(out Inflammable _obj))
+        {
+            _obj.Burn();
+        }
     }
 }

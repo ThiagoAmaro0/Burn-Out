@@ -34,4 +34,12 @@ public class PlayerRotation : MonoBehaviour
             _obj.Burn();
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.TryGetComponent<Marshmallow>(out Marshmallow _obj))
+        {
+            _obj.Collect();
+        }
+    }
 }
